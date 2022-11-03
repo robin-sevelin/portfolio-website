@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Code", monospace;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 172.5px;
+}
+
+h1,
+h2,
+h3,
+p,
+span {
+  padding: 10px;
+}
+li {
+  list-style: none;
+}
+
+header {
+  padding: 10px;
+  color: black;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+  h1 {
+    position: relative;
+    right: 10px;
+  }
+  span {
+    position: relative;
+    left: 10px;
+  }
+}
+
+main {
+  max-width: 1024px;
+  margin-bottom: 100px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.about {
+  background-color: #9f497e;
+  color: white;
+  padding: 10px;
+}
+
+.picture-of-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  padding: 20px;
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.education {
+  background-image: url("../img/pexels-photo-399160.webp"); // thank you pexels //
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.form-function {
+  text-align: center;
+  position: relative;
+  font-style: italic;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.skills {
+  background-color: white;
+  h2 {
+    font-size: 1.5rem;
+  }
+  span {
+    color: orangered;
+  }
+
+  li {
+    padding: 10px;
+  }
+}
+
+.experience,
+.keges,
+.strandakar {
+  padding: 10px;
+  background-color: #647295;
+  color: white;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(49, 40, 42);
+  color: white;
+}
+
+.contact,
+.social-media {
+  padding: 10px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    background-image: linear-gradient(90deg, #d200a2, #d488c2);
+    background-size: 0% 5px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 0.3s ease;
+  }
+}
+
+.contact a:hover,
+.social-media a:hover {
+  background-size: 100% 5px;
+}

@@ -1,0 +1,30 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 0.5fr);
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.about {
+  grid-column: 1 / span 3;
+}
+
+.picture-of-me {
+  grid-column: 4 / span 3;
+  grid-row: 1 / span 2;
+}
+
+.education {
+  grid-column: 1 / span 3;
+  grid-row: 2;
+}
+
+.skills {
+  grid-column: 4 / span 3;
+}
+
+.experience {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+}
