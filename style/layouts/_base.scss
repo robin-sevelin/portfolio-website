@@ -8,7 +8,7 @@ body {
   font-family: "Fira Code", monospace;
   position: relative;
   min-height: 100vh;
-  padding-bottom: 172.5px;
+  padding-bottom: 345px;
 }
 
 h1,
@@ -111,10 +111,6 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-evenly;
   background-color: rgb(49, 40, 42);
   color: white;
 }
