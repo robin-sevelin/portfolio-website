@@ -28,3 +28,15 @@ main {
   grid-column: 1 / span 3;
   grid-row: 3;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(49, 40, 42);
+  color: white;
+}
+
