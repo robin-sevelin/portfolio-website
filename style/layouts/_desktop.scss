@@ -6,6 +6,10 @@ main {
   margin-bottom: 100px;
 }
 
+header {
+  margin-bottom: 30px;
+}
+
 .about {
   grid-column: 1 / span 3;
 }
@@ -39,4 +43,3 @@ footer {
   background-color: rgb(49, 40, 42);
   color: white;
 }
-

@@ -7,14 +7,20 @@ a {
   display: flex;
   align-items: center;
   gap: 60px;
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    background-image: linear-gradient(90deg, #d200a2, #d488c2);
+    background-size: 0% 5px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 0.3s ease;
+  }
 }
 
-.nav-link {
-  transition: 0.3s ease;
-}
-
-.nav-link:hover {
-  color: hotpink;
+.nav-menu a:hover {
+  background-size: 100% 5px;
 }
 
 .hamburger {
@@ -24,7 +30,7 @@ a {
 
 .bar {
   display: block;
-  width: 5px;
+  width: 35px;
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
@@ -52,7 +58,7 @@ a {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 200px;
+    top: 180px;
     gap: 0;
     flex-direction: column;
     background-color: rgb(49, 40, 42);

@@ -14,8 +14,7 @@ body {
 h1,
 h2,
 h3,
-p,
-span {
+p {
   padding: 10px;
 }
 li {
@@ -23,7 +22,7 @@ li {
 }
 
 header {
-  background-color: rgb(52, 44, 44);
+  background-color: rgb(49, 40, 42);
   padding: 10px;
   color: white;
   height: 200px;
@@ -31,7 +30,6 @@ header {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-bottom: 10px;
   h1 {
     position: relative;
     right: 10px;
@@ -129,6 +127,9 @@ footer {
   max-width: 1200px;
   display: flex;
   flex-direction: column;
+  span {
+    padding: 10px;
+  }
 
   a {
     text-decoration: none;
