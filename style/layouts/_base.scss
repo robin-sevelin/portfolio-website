@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Fira Code", monospace;
+  font-family: 'Fira Code', monospace;
   position: relative;
   min-height: 100vh;
   padding-bottom: 345px;
@@ -22,9 +22,9 @@ li {
 }
 
 header {
-  background-color: rgb(49, 40, 42);
+  background-color: transparent;
   padding: 10px;
-  color: white;
+  color: rgb(49, 40, 42);
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -75,7 +75,7 @@ img {
 }
 
 .education {
-  background-image: url("../img/pexels-photo-399160.webp"); // thank you pexels //
+  background-image: url('../img/pexels-photo-399160.webp'); // thank you pexels //
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,11 +93,13 @@ img {
 
 .skills {
   background-color: white;
+  margin-top: 20px;
   h2 {
     font-size: 1.5rem;
   }
   span {
     color: orangered;
+    margin-right: 10px;
   }
 
   li {

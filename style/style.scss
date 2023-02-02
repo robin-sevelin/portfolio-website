@@ -1,7 +1,5 @@
-@import "layouts/base";
-
-@import "layouts/hamburger";
+@import 'layouts/base';
 
 @media all and(min-width: 1024px) {
-  @import "layouts/desktop";
+  @import 'layouts/desktop';
 }
