@@ -33,6 +33,10 @@ header {
   grid-row: 3;
 }
 
+.projects {
+  grid-column: 1 / span 6;
+}
+
 footer {
   position: absolute;
   bottom: 0;
