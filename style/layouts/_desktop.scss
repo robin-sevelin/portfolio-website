@@ -37,6 +37,11 @@ header {
   grid-column: 1 / span 6;
 }
 
+.projects-container {
+  display: inline-flex;
+  width: 100%;
+}
+
 footer {
   position: absolute;
   bottom: 0;

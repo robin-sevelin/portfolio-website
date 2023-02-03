@@ -48,6 +48,7 @@ header {
 }
 
 main {
+  margin-bottom: 200px;
   max-width: 1024px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
@@ -152,23 +153,24 @@ footer {
 .weather-app,
 .to-the-moon {
   border-radius: 10%;
+  margin-block: 10px;
 }
 
 .weather-app:hover {
-  scale: 1.1;
+  scale: 1.05;
   transition: 0.5s ease-in;
 }
 
 .to-the-moon:hover {
-  scale: 1.1;
+  scale: 1.05;
   transition: 0.5s ease-in;
 }
 
 .projects {
-  background-color: #9b6084;
+  background-color: #b0829e;
   padding: 30px;
   width: 100%;
-  color: white;
+  color: black;
   .project-header {
     margin-bottom: 20px;
     text-align: center;
@@ -176,7 +178,9 @@ footer {
   }
   .projects-container {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
   }
 }
