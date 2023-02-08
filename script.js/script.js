@@ -37,39 +37,3 @@ gsap.to('#small-wheel-two', {
   ease: 'power3',
   transformOrigin: 'center center',
 });
-
-gsap.fromTo(
-  '#letter-s',
-  {
-    x: -100,
-    opacity: 0,
-  },
-  {
-    x: 0,
-    duration: 2,
-    opacity: 1,
-  }
-);
-
-gsap.fromTo(
-  '#letter-v',
-  {
-    scale: -5,
-  },
-  {
-    duration: 3,
-    scale: 1,
-  }
-);
-
-gsap.fromTo(
-  '#letter-g',
-  {
-    x: 100,
-  },
-  {
-    x: 0,
-    fill: 'red',
-    duration: 3,
-  }
-);
