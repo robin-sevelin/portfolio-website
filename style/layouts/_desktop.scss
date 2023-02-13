@@ -35,6 +35,10 @@ header {
 
 .projects {
   grid-column: 1 / span 6;
+  .projects-container {
+    display: flex;
+    gap: 1rem;
+  }
 }
 
 footer {
